@@ -38,7 +38,8 @@ Now, you need another array to hold the player's guesses in.
 It needs to be the same size as the word's character array.
 You should initialize the guesses array with underscores "_".
 
-Then, as you get each of the player's guessed letters, you step thru the word array, looking to see if the character guessed is in the word and if it is, you replace the "_" with the guessed letter.
+Then, as you get each of the player's guessed letters, you step thru the word array, 
+looking to see if the character guessed is in the word and if it is, you replace the "_" with the guessed letter.
 
 ```
 // indices  0    1    2
@@ -46,7 +47,8 @@ wordArray=['c', 'a', 't']
 guesses = ['_', 'a', '_']
 ```
 
-This is what the two arrays would look like if the secret word was "cat" and the player had guessed 'a' as the first guess.
+This is what the two arrays would look like if the secret word was "cat" and 
+the player had guessed 'a' as the first guess.
 
 As each guess comes in, it is either filled in the player's guesses or ignored.
 
